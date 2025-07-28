@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import PPGLogo from './PPGLogo'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,9 +13,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="bg-purple-800 text-white px-3 py-1 rounded-md font-bold text-xl">
-              PPG
-            </div>
+            <PPGLogo className="w-16 h-10" />
             <Link href="/" className="text-xl font-bold text-gradient">
               Contractor Portal
             </Link>

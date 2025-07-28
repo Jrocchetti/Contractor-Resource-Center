@@ -1,3 +1,5 @@
+import PPGLogo from './PPGLogo'
+
 export default function Hero() {
   return (
     <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 text-white py-20 relative overflow-hidden">
@@ -10,9 +12,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <div className="flex justify-center items-center mb-6">
-            <div className="bg-purple-800 text-white px-6 py-3 rounded-lg font-bold text-3xl mr-4">
-              PPG
-            </div>
+            <PPGLogo className="w-24 h-16 mr-6" />
             <h1 className="text-4xl md:text-6xl font-bold">
               <span className="text-gradient">Contractor Portal</span>
             </h1>

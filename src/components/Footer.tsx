@@ -1,3 +1,5 @@
+import PPGLogo from './PPGLogo'
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
@@ -6,9 +8,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-purple-800 text-white px-3 py-1 rounded-md font-bold text-lg">
-                PPG
-              </div>
+              <PPGLogo className="w-12 h-8" />
               <h3 className="text-xl font-bold text-primary-400">Contractor Portal</h3>
             </div>
             <p className="text-gray-400 mb-4">
