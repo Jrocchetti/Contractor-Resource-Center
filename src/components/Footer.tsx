@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold mb-4">PPG Contractor Portal</h3>
             <p className="text-gray-300 mb-4">
-              Paradigm Productions Group's comprehensive contractor resource center. 
+              Paradigm Productions Group&apos;s comprehensive contractor resource center. 
               Professional tools and resources to maintain consistent standards 
               across all contractor engagements.
             </p>
