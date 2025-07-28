@@ -25,26 +25,6 @@ export default function Hero() {
               Quick Forms Access
             </button>
           </div>
-          
-          {/* Stats */}
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">15+</div>
-              <div className="text-gray-400">Essential Forms</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">24/7</div>
-              <div className="text-gray-400">Access</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">100%</div>
-              <div className="text-gray-400">Compliant</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">Fast</div>
-              <div className="text-gray-400">Processing</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
