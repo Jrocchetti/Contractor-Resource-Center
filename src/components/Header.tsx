@@ -11,8 +11,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gradient">
+          <div className="flex items-center space-x-3">
+            <div className="bg-purple-800 text-white px-3 py-1 rounded-md font-bold text-xl">
+              PPG
+            </div>
+            <Link href="/" className="text-xl font-bold text-gradient">
               Contractor Portal
             </Link>
           </div>

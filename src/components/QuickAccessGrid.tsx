@@ -75,7 +75,7 @@ export default function QuickAccessGrid() {
             <Link
               key={item.id}
               href={item.href}
-              className={`${item.color} p-6 rounded-lg border border-gray-700 transition-all duration-300 hover:shadow-xl hover:border-primary-500 group`}
+              className={`${item.color} p-6 rounded-lg border border-gray-700 transition-all duration-300 hover:shadow-xl hover:border-primary-600 group`}
             >
               <div className="flex items-start space-x-4">
                 <div className={`text-3xl ${item.iconColor} group-hover:scale-110 transition-transform duration-300`}>

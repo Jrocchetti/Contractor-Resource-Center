@@ -47,7 +47,7 @@ export default function ResourcesSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {resourceCategories.map((category, index) => (
-            <div key={index} className="bg-gray-900/50 backdrop-blur-sm rounded-lg shadow-xl border border-gray-700 p-6 hover:border-primary-500 transition-all duration-300">
+            <div key={index} className="bg-gray-900/50 backdrop-blur-sm rounded-lg shadow-xl border border-gray-700 p-6 hover:border-primary-600 transition-all duration-300">
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-white mb-2">
                   {category.title}
@@ -62,7 +62,7 @@ export default function ResourcesSection() {
                   <a
                     key={itemIndex}
                     href={item.href}
-                    className="block p-3 rounded-lg border border-gray-700 hover:border-primary-500 hover:bg-gray-800/50 transition-all duration-300 group"
+                    className="block p-3 rounded-lg border border-gray-700 hover:border-primary-600 hover:bg-gray-800/50 transition-all duration-300 group"
                   >
                     <div className="flex justify-between items-start">
                       <div className="flex-1">

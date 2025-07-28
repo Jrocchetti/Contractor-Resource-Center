@@ -5,7 +5,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xl font-bold mb-4 text-primary-400">Contractor Portal</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="bg-purple-800 text-white px-3 py-1 rounded-md font-bold text-lg">
+                PPG
+              </div>
+              <h3 className="text-xl font-bold text-primary-400">Contractor Portal</h3>
+            </div>
             <p className="text-gray-400 mb-4">
               Paradigm Productions Group&apos;s comprehensive contractor resource center. 
               Professional tools and resources to maintain consistent standards 

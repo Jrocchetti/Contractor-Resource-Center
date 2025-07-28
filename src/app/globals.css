@@ -37,6 +37,6 @@ body {
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-400 to-purple-300 bg-clip-text text-transparent;
   }
 }
